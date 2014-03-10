@@ -53,12 +53,12 @@ describe Allergies do
 
   it "is allergic to eggs" do
     allergies = Allergies.new(1)
-    expect(allergies.allergic_to?('eggs')).to be_false
+    expect(allergies.allergic_to?('eggs')).to be_true
   end
 
   it "allergic to eggs and other stuff" do
     allergies = Allergies.new(5)
-    expect(allergies.allergic_to?('eggs')).to be_false
+    expect(allergies.allergic_to?('eggs')).to be_true
   end
 
   it "is not allergic to non allergen parts" do
