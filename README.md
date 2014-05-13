@@ -1,6 +1,7 @@
 ---
 tags: logic, comparisons, object orientation, arrays
 language: ruby
+  resources: 1
 ---
 
 # Allergies
@@ -24,3 +25,7 @@ Now, given just that score of 34, your program should be able to say:
 
 - Whether Tom is allergic to any one of those allergens listed above.
 - All the allergens Tom is allergic to.
+
+## Resources
+* [Ruby's bitwise operators Calle Erldansson's Blog](http://calleerlandsson.com/) - [Ruby's bitwise operators](http://calleerlandsson.com/rubys-bitwise-operators)
+* [Ruby Docs](http://www.ruby-doc.org/) - [Arrays](http://www.ruby-doc.org/core-2.1.1/Array.html)
