@@ -1,6 +1,6 @@
 ---
-tags: logic, comparisons, object orientation, arrays
-language: ruby
+  tags: logic, comparisons, object orientation, arrays
+  language: ruby
   resources: 1
 ---
 
