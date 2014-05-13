@@ -1,7 +1,7 @@
 ---
   tags: logic, comparisons, object orientation, arrays
   language: ruby
-  resources: 1
+  resources: 2
 ---
 
 # Allergies
