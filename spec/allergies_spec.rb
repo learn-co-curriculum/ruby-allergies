@@ -1,6 +1,3 @@
-require 'spec_helper'
-require_relative '../allergies'
-
 describe Allergies do
   
   it 'has no allergies' do
