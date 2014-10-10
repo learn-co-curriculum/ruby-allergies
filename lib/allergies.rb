@@ -1,5 +1,5 @@
 class Allergies
-  ALLERGENS = [
+  ALLERGY_LIST = [
     "eggs", "peanuts", "shellfish", "strawberries",
     "tomatoes", "chocolate", "pollen", "cats"
   ]
@@ -9,7 +9,7 @@ class Allergies
   end
 
   def list
-    ALLERGENS.select do |item|
+    ALLERGY_LIST.select do |item|
       allergic_to?(item)
     end
   end
@@ -22,7 +22,7 @@ class Allergies
   # This works because even if all the allergens below 'cats' were active,
   # their total value would be 127.
   def allergic_to?(item)
-    index = ALLERGENS.index(item)
+    index = ALLERGY_LIST.index(item)
     # Use a Binary AND to see if this allergen's bit is active or not.
     @score & (2 ** index) > 0
   end

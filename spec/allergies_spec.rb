@@ -1,6 +1,6 @@
 describe Allergies do
 
-  describe "::CONSTANTS"
+  describe "::CONSTANTS" do
     it 'has a constant, ALLERGY_LIST, that points to an array of allergies' do
       expect(Allergies::ALLERGY_LIST).to eq(["eggs", "peanuts", "shellfish", "strawberries","tomatoes", "chocolate", "pollen", "cats"])
     end
@@ -8,7 +8,7 @@ describe Allergies do
   
   describe '#list' do
     it 'has no allergies' do
-      expect(Allergies.new(0).list).to match_array([]])
+      expect(Allergies.new(0).list).to match_array([])
     end
 
     it "is allergic to eggs" do
@@ -16,7 +16,7 @@ describe Allergies do
     end
 
     it "is allergic to peanuts" do
-      expect(Allergies.new(2).list).to match_array(['peanuts']])
+      expect(Allergies.new(2).list).to match_array(['peanuts'])
     end
 
     it "is allergic to strawberries" do
