@@ -60,7 +60,7 @@ describe Allergies do
 
   it "is not allergic to non allergen parts" do
     allergies = Allergies.new(509)
-    expect(['eggs', 'shellfish', 'strawberries', 'tomatoes', 'chocolate', 'pollen', 'cats']).to match_array(allergies.list)
+    expect(allergies.list).to match_array(['eggs', 'shellfish', 'strawberries', 'tomatoes', 'chocolate', 'pollen', 'cats'])
   end
 
 end
