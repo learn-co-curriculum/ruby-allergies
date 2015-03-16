@@ -1,5 +1,5 @@
 ---
-  tags: logic, comparisons, object orientation, arrays, bitwise operators, advanced
+  tags: logic, comparisons, object orientation, arrays, bitwise operators, advanced, bonus
   language: ruby
   resources: 2
 ---
