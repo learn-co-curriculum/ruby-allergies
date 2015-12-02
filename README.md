@@ -41,3 +41,5 @@ You can use [Ruby bitwise operators](http://calleerlandsson.com/2014/02/06/rubys
 ## Resources
 * [Ruby's bitwise operators Calle Erldansson's Blog](http://calleerlandsson.com/) - [Ruby's bitwise operators](http://calleerlandsson.com/rubys-bitwise-operators)
 * [Ruby Docs](http://www.ruby-doc.org/) - [Arrays](http://www.ruby-doc.org/core-2.1.1/Array.html)
+
+<a href='https://learn.co/lessons/ruby-allergies' data-visibility='hidden'>View this lesson on Learn.co</a>
